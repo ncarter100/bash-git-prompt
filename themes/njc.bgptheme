@@ -1,3 +1,8 @@
+# Set this env (in .bashrc)
+# GIT_PROMPT_ONLY_IN_REPO=1
+# GIT_PROMPT_THEME=njc
+# source ~/src/bash-git-prompt/gitprompt.sh
+
 # This is an alternative approach. Single line minimalist in git repo.
 override_git_prompt_colors() {
   GIT_PROMPT_THEME_NAME="Single_line_Minimalist"
